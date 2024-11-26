@@ -3,7 +3,7 @@
 
 Here are my top 5 repositories that I am most proud of:
 
-### 1. **[Virtual Thrift Store](https://github.com/albert-magarire/virtual-thrift-store)**
+### 1. **[Virtual Thrift Store](https://github.com/albert-magarire/Lander-Thrift-Store)**
 A **web-based** platform for managing virtual thrift stores, featuring **user registration**, **shopping**, and **admin management**. Built with **Java**, **HTML**, and **CSS**.
 
 ![Thrift Store](https://github-readme-stats.vercel.app/api/pin/?username=albert-magarire&repo=virtual-thrift-store&theme=radical)
