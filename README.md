@@ -1,5 +1,5 @@
 # Hi, I'm Betserai Albert Magarire 👋
-## 🚀 Top 5 Repositories
+## 🚀 Top Repository
 
 Here are my top 5 repositories that I am most proud of:
 
@@ -9,37 +9,6 @@ A **web-based** platform for managing virtual thrift stores, featuring **user re
 ![Thrift Store](https://github-readme-stats.vercel.app/api/pin/?username=albert-magarire&repo=Lander-Thrift-Store&theme=radical)
 
 ---
-
-### 2. **[Hotel Room Reservation System](https://github.com/albert-magarire/hotel-room-reservation)**
-A **room reservation system** with **user registration**, **room management**, and **admin functionalities**. Built with **Java** and **HTML/CSS**.
-
-![Hotel Reservation](https://github-readme-stats.vercel.app/api/pin/?username=albert-magarire&repo=hotel-room-reservation&theme=radical)
-
----
-
-### 3. **[Geolocator App](https://github.com/albert-magarire/geolocator-app)**
-A **GPS-based mobile app** to help users find local retailers, built using the **Google Maps API** and **React Native**. Features include **route calculation** and **real-time traffic data**.
-
-![Geolocator App](https://github-readme-stats.vercel.app/api/pin/?username=albert-magarire&repo=geolocator-app&theme=radical)
-
----
-
-### 4. **[Generative AI in Healthcare](https://github.com/albert-magarire/generative-ai-healthcare)**
-Research on **AI-based healthcare solutions**, utilizing **NLP** and a **2-D CNN model** to process **73GB of raw data** for better healthcare applications.
-
-![Generative AI](https://github-readme-stats.vercel.app/api/pin/?username=albert-magarire&repo=generative-ai-healthcare&theme=radical)
-
----
-
-### 5. **[Cybersecurity Threat-Hunting](https://github.com/albert-magarire/cybersecurity-threat-hunting)**
-Exploration of **SolarWinds IOCs** and **network logs analysis** using **Splunk** and **MISP**, focused on **threat detection** and **incident investigation** in cybersecurity.
-
-![Cybersecurity](https://github-readme-stats.vercel.app/api/pin/?username=albert-magarire&repo=cybersecurity-threat-hunting&theme=radical)
-
----
-
-Each repository includes detailed descriptions, technologies used, and the problem they solve. Feel free to explore them and dive into the code! 🎉
-
 
 ## 🚀 Technology Stack
 
