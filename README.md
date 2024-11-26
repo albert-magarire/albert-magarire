@@ -1,107 +1,66 @@
-## Hi there 👋
-
 # Hi, I'm Betserai Albert Magarire 👋
 
-Welcome to my GitHub profile! I'm a passionate **Computer Information Systems** major at **Lander University**, focusing on **Software Development** with a minor in **Cybersecurity**. I love exploring new technologies, solving complex problems, and contributing to impactful projects. Below you can find an overview of my work, academic pursuits, and interests. Let's dive in!
+I'm a passionate **Computer Information Systems** major at **Lander University** focusing on **Software Development** with a minor in **Cybersecurity**. I'm always eager to learn and explore new technologies to solve real-life problems.
 
-## 🚀 About Me
+## 🌱 Currently Learning
+- **Generative AI** and **NLP** for **healthcare**
+- Advanced **Cybersecurity** concepts (currently enrolled in **CYB 102**)
+- **Web Development** and **JavaFX** GUI programming
 
-- 🔭 I’m currently working on:
-  - A **Virtual Thrift Store** project at Lander University.
-  - An **AI research project** in healthcare applications using NLP tools.
-  - Exploring the use of **Generative AI** and **NLP** in **healthcare systems**.
-  
-- 🌱 I’m learning:
-  - Advanced **Cybersecurity** concepts (currently enrolled in **CYB 102**).
-  - Software development tools and methodologies, focusing on **Java**, **Python**, and **JavaFX**.
-  
-- 💬 Ask me about:
-  - **Python Programming**
-  - **Java (JavaFX) Applications**
-  - **Cybersecurity Best Practices**
-  - **Machine Learning & AI in Healthcare**
-  - **Data Structures and Algorithms**
+## 🚀 Technology Stack
 
-- 📫 How to reach me:
-  - **Email**: [albertmagarire@gmail.com](mailto:albertmagarire@gmail.com)
-  - **LinkedIn**: [betserai-albert-magarire](https://www.linkedin.com/in/betserai-albert-magarire)
-  - **GitHub**: [@albert-magarire](https://github.com/albert-magarire)
-  
-- ⚡ Fun fact:
-  - I’ve developed a **GPS-based system** to help users locate local retailers and a **learning management system** for my high school!
+![Tech Stack](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)  
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
-## 🛠️ Technologies & Tools
+## 🌟 My GitHub Stats
 
-I have experience with a wide variety of technologies and tools that help me build powerful, efficient, and secure software systems:
+![Betserai's GitHub Stats](https://github-readme-stats.vercel.app/api?username=albert-magarire&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
 
-- **Languages**: Java, Python, Kotlin, JavaScript
-- **Frameworks & Libraries**: JavaFX, React Native, Bootstrap
-- **Databases**: MySQL, PostgreSQL
-- **Tools**: Visual Studio Code, Eclipse, IntelliJ IDEA, Git, GitHub, Vim
-- **Cloud & DevOps**: Docker, AWS (Amazon Web Services)
-- **Cybersecurity**: Linux Audit, Splunk, MISP
-- **Other**: **CSV File Manipulation**, **REST APIs**, **Data Structures & Algorithms**
+- **Total Stars:** 7
+- **Total Commits:** 397
+- **Total PRs:** 106
+- **Contributed To:** 33 Repositories
+- **Current Streak:** 1 day
 
-## 📂 Projects
-
-Here are some of the exciting projects I've been working on:
+## 📂 Featured Projects
 
 ### 1. **Virtual Thrift Store**
-A web-based system for managing virtual thrift stores. Features include user registration, shopping, and admin management. Built with **Java**, **JavaScript**, and **CSS**.
+A web-based platform for managing virtual thrift stores. Features include **user registration**, **shopping**, and **admin management** built using **Java** and **JavaScript**.
 
 ### 2. **Hotel Room Reservation System**
-A hotel reservation platform following the **Software Development Life Cycle (SDLC)** using **Agile Scrum** principles. It includes user registration, room management, reservation booking, and admin functionalities.
+A reservation platform with **user registration**, **room management**, and **admin functionalities**. Built using **Java** and **HTML/CSS**.
 
 ### 3. **Geolocator App**
-A GPS-based mobile app leveraging **Google Maps** API, **React Native**, and **Java** to help users find local retailers. I optimized route calculation using **Dijkstra's** and **A\*** algorithms.
+A **GPS-based mobile app** to help users find local retailers. Built using **Google Maps API** and **React Native**.
 
 ### 4. **Generative AI in Healthcare**
-Working on research involving the application of **Generative AI** and **Natural Language Processing (NLP)** in **healthcare systems**. My focus is on **data processing**, **machine learning models**, and AI-based healthcare solutions.
+Research on **AI-based healthcare solutions**, using **NLP** to process 73GB of data and train **2-D CNN models**.
 
 ### 5. **Cybersecurity Threat-Hunting**
-In my **CYB 102** course, I'm investigating the **SolarWinds IOCs** using **MISP** and **Splunk** to analyze network logs and identify vulnerabilities.
+Investigating **SolarWinds IOCs** using **Splunk** and **MISP** in my **CYB 102** course.
 
-## 🎓 Education
+## 🏆 Achievements
 
-- **Bachelor of Science in Computer and Information Systems**, *Lander University*  
-  Concentration: Software Development | Minor: Cybersecurity  
-  GPA: 3.89/4.00
-- **Cybersecurity Coursework**: CYB 102, **Fundamentals of Cybersecurity**
+- **Top Contributor** in multiple university projects, including **AI healthcare research** and **thrift store development**.
+- Achieved **3.89 GPA** and consistently ranked among top students in **Software Development** and **Cybersecurity** courses.
 
-## 💼 Experience
+## 📞 Get In Touch
 
-- **Student Researcher**, *Lander University* (Aug 2023 - Present)
-  - Conducted research on **Generative AI** and **NLP** in healthcare.
-  - Processed 73 GB of unstructured data and trained a **2-D CNN model**.
-
-- **Tutor**, *Lander University* (Aug 2023 - Present)
-  - Tutoring courses in **Calculus**, **Chemistry**, and **Python Programming**.
-
-## 🧑‍💻 Get Involved
-
-If you’re interested in collaborating or just want to chat about tech, feel free to open an issue or contact me directly. I’m always open to discussing new ideas and learning opportunities!
-
-## 📈 GitHub Stats
-
-![Albert's GitHub Stats](https://github-readme-stats.vercel.app/api?username=albert-magarire&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
-
-## 📚 Currently Reading
-
-- **"Introduction to Algorithms"** by Cormen et al.
-- **"Python Machine Learning"** by Sebastian Raschka
-- **"The Phoenix Project"** - A novel about DevOps and IT transformations.
-
-## ⚙️ My Contributions
-
-- [Check out my contributions!](https://github.com/albert-magarire)
+- 📧 Email: [albertmagarire@gmail.com](mailto:albertmagarire@gmail.com)
+- 🌐 Website: [albertmagarire.github.io](https://albertmagarire.github.io)
+- 🔗 LinkedIn: [betserai-albert-magarire](https://www.linkedin.com/in/betserai-albert-magarire)
+- 💬 GitHub: [@albert-magarire](https://github.com/albert-magarire)
 
 ## 🎮 Fun Projects
 
-I enjoy building fun projects, such as:
-
 - **Falling Blocks Game** (JavaFX): A game involving colored blocks with varying speeds, where users click to score points.
-- **Pet Adoption App** (JavaFX): A GUI application where users can browse and adopt pets using a CSV file for data management.
+- **Pet Adoption App** (JavaFX): A GUI app to browse and adopt pets with data managed in **CSV** files.
 
 ---
 
-Thanks for visiting my GitHub profile! 😊 Feel free to explore my repositories, open issues, or drop a star on any projects you find interesting. Let's connect and build something amazing together!
+Thanks for visiting my profile! 🌟 Feel free to explore my repositories and connect with me!
