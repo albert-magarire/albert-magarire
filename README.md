@@ -1,5 +1,5 @@
 # Hi, I'm Betserai Albert Magarire 👋
-## 🚀 Top Repository
+## Top Repository
 
 Here are my top 5 repositories that I am most proud of:
 
@@ -10,7 +10,7 @@ A **web-based** platform for managing virtual thrift stores, featuring **user re
 
 ---
 
-## 🚀 Technology Stack
+## Technology Stack
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white) 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) 
@@ -50,7 +50,7 @@ Investigating **SolarWinds IOCs** using **Splunk** and **MISP** in my **CYB 102*
 ## 🏆 Achievements
 
 - **Top Contributor** in multiple university projects, including **AI healthcare research** and **thrift store development**.
-- Achieved **3.89 GPA** and consistently ranked among top students in **Software Development** and **Cybersecurity** courses.
+- Achieved perfect GPA and consistently ranked among top students in **Software Development** and **Cybersecurity** courses.
 
 ## 📞 Get In Touch
 
