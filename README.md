@@ -1,7 +1,7 @@
 # Hi, I'm Betserai Albert Magarire 👋
 ## Top Repository
 
-Here are my top 5 repositories that I am most proud of:
+This is the most recent project that I have been working on:
 
 ### 1. **[Virtual Thrift Store](https://github.com/albert-magarire/Lander-Thrift-Store)**
 A **web-based** platform for managing virtual thrift stores, featuring **user registration**, **shopping**, and **admin management**. Built with **Java**, **HTML**, and **CSS**.
