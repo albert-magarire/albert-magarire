@@ -4,7 +4,7 @@
 This is the most recent project that I have been working on:
 
 ### 1. **[Virtual Thrift Store](https://github.com/albert-magarire/Lander-Thrift-Store)**
-A **web-based** platform for managing virtual thrift stores, featuring **user registration**, **shopping**, and **admin management**. Built with **Java**, **HTML**, and **CSS**.
+A **web-based** platform for managing virtual thrift stores, featuring **user registration**, **shopping**, and **admin management**. Built with **PHP**, **JavaScript**, **HTML**, and **CSS**.
 
 ![Thrift Store](https://github-readme-stats.vercel.app/api/pin/?username=albert-magarire&repo=Lander-Thrift-Store&theme=radical)
 
