@@ -29,7 +29,7 @@ A **web-based** platform for managing virtual thrift stores, featuring **user re
 - **Total Commits:** 397
 - **Total PRs:** 106
 - **Contributed To:** 33 Repositories
-- **Current Streak:** 37 days
+- **Current Streak:** 4 days
 
 ## 📂 Featured Projects
 
