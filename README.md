@@ -50,7 +50,7 @@ Investigating **SolarWinds IOCs** using **Splunk** and **MISP** in my **CYB 102*
 
 ## 🏆 Achievements
 
-- **Top Contributor** in multiple university projects, including **AI healthcare research** and **thrift store development**.
+- **Top Contributor** in multiple college projects, including **AI healthcare research** and **thrift store development**.
 - Achieved perfect GPA and consistently ranked among top students in **Software Development** and **Cybersecurity** courses.
 
 ## 📞 Get In Touch
