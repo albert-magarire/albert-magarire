@@ -34,7 +34,7 @@ A **web-based** platform for managing virtual thrift stores, featuring **user re
 ## 📂 Featured Projects
 
 ### 1. **Virtual Thrift Store**
-A web-based platform for managing virtual thrift stores. Features include **user registration**, **shopping**, and **admin management** built using **Java** and **JavaScript**.
+A web-based platform for managing virtual thrift stores. Features include **user registrations**, **shopping**, and **admin management** built using **Java** and **JavaScript**.
 
 ### 2. **Hotel Room Reservation System**
 A reservation platform with **user registration**, **room management**, and **admin functionalities**. Built using **Java** and **HTML/CSS**.
