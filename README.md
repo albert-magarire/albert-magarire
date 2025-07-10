@@ -1,222 +1,254 @@
-# Advanced Trading Dashboard 📈
+# 🎯 Multi-Timeframe Trading Dashboard
 
-A real-time trading dashboard built with React that monitors multiple trading conditions and generates automated signals with SMS alerts. This professional-grade application features live price feeds, technical analysis indicators, and intelligent signal generation.
+A **professional-grade** real-time trading dashboard with **multi-timeframe analysis** that follows the proven trading strategy: analyze on 15-minute charts, confirm on 5-minute charts, and enter on 1-minute charts. Features real-time market data, candlestick charts, and automated SMS alerts.
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white)
 
-## ✨ Features
+## 🚀 **Multi-Timeframe Trading Strategy**
 
-### 🎯 Real-Time Trading Analysis
-- **Live Price Feeds**: Real-time price data for major trading pairs (EUR/USD, XAU/USD, GBP/USD, USD/JPY)
-- **TDI Oscillator**: Advanced momentum indicator with divergence detection
-- **Multi-Condition Analysis**: 7 sophisticated trading conditions including volume, trend, EMA, market structure
-- **Interactive Charts**: Beautiful, responsive charts powered by Recharts library
+### 📊 **The 15M → 5M → 1M Approach**
+1. **15-Minute Analysis**: Primary trend identification and signal generation
+2. **5-Minute Confirmation**: Trend confirmation and entry refinement  
+3. **1-Minute Entry**: Precise entry timing and execution
 
-### 🤖 Intelligent Signal Generation
-- **Smart Algorithms**: Signals generated when 5+ conditions align
-- **Risk Management**: Automatic stop-loss and take-profit calculations
-- **Signal Strength**: Percentage-based signal confidence scoring
-- **Real-Time Notifications**: Instant alerts when trading opportunities arise
+### 🎯 **Signal Generation Logic**
+- **15M Chart**: Must have 5/7 conditions + TDI ≤32 (BUY) or ≥80 (SELL)
+- **5M Chart**: Must have 4/7 conditions + TDI confirmation
+- **1M Chart**: Must have 3/7 conditions for final entry confirmation
+- **Final Signal**: Generated only when ALL timeframes align
 
-### 📱 SMS Alert System
-- **Instant Notifications**: SMS alerts sent to your phone for urgent signals
-- **Detailed Information**: Complete signal data including entry, SL, TP levels
-- **Backend Integration**: RESTful API for reliable message delivery
+## ✨ **Advanced Features**
 
-### 🎨 Professional UI/UX
-- **Dark Theme**: Modern, eye-friendly dark interface
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile
-- **Real-Time Updates**: Live data updates every 2-3 seconds
-- **Smooth Animations**: Polished transitions and visual feedback
+### 🔄 **Real-Time Market Data**
+- **WebSocket Connection**: Live data streaming every 30 seconds
+- **OHLC Candlestick Data**: Professional candlestick charts for all timeframes
+- **TDI Oscillators**: Individual TDI analysis for each timeframe
+- **Market Sessions**: Volatility adjustment based on trading hours
 
-## � Quick Start
+### 📈 **Candlestick Charts**
+- **15-Minute Charts**: Primary trend analysis
+- **5-Minute Charts**: Trend confirmation
+- **1-Minute Charts**: Entry timing
+- **Interactive Tooltips**: OHLCV data on hover
+- **Real-Time Updates**: Live chart updates via WebSocket
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn package manager
+### 🤖 **Intelligent Analysis**
+- **Multi-Condition Checking**: 7 sophisticated trading conditions per timeframe
+- **TDI Divergence Detection**: Advanced momentum analysis
+- **Risk Management**: Automatic SL/TP calculation with R:R ratios
+- **Signal Strength**: Percentage-based confidence scoring
 
-### Installation
+### 📱 **Enhanced SMS Alerts**
+- **Phone Number**: `+1(662)924-9008` (Updated)
+- **Multi-Timeframe Data**: Complete signal breakdown across all timeframes
+- **Detailed Information**: Entry, SL, TP, TDI values, and confirmation status
+- **Professional Format**: Clean, trader-friendly message format
 
-1. **Clone the repository**
+## 🔧 **Technical Architecture**
+
+### **Frontend (React + WebSocket)**
+- **Real-Time Components**: WebSocket-powered live updates
+- **Custom Candlestick Charts**: Built with Recharts
+- **TDI Oscillators**: Individual charts for each timeframe
+- **Responsive Design**: Works perfectly on all devices
+
+### **Backend (Node.js + Express + WebSocket)**
+- **Market Data API**: Real-time OHLC data generation
+- **Multi-Timeframe Analysis**: Sophisticated trading logic
+- **WebSocket Server**: Live data broadcasting
+- **RESTful Endpoints**: Analysis and market data APIs
+- **Cron Jobs**: Scheduled data updates every 30 seconds
+
+### **Trading Logic Engine**
+- **Condition Analysis**: 7 conditions per timeframe
+- **TDI Calculation**: RSI-based momentum indicator
+- **EMA Analysis**: 12/26 period crossovers
+- **Volume Confirmation**: Trend validation
+- **Market Structure**: Pattern recognition
+
+## 🎮 **Quick Start**
+
+### 🚀 **One-Command Launch**
 ```bash
-git clone <repository-url>
-cd trading-dashboard
+./start.sh
 ```
 
-2. **Install frontend dependencies**
+### 📋 **Manual Setup**
 ```bash
+# Install dependencies
 npm install
-```
+cd backend && npm install && cd ..
 
-3. **Install backend dependencies**
-```bash
-cd backend
-npm install
-cd ..
-```
+# Start backend (Terminal 1)
+cd backend && npm start
 
-4. **Start the backend server**
-```bash
-cd backend
+# Start frontend (Terminal 2)
 npm start
 ```
-The backend will run on `http://localhost:3001`
 
-5. **Start the frontend application**
+### 🌐 **Access Points**
+- **Frontend**: http://localhost:3000
+- **Backend API**: http://localhost:3001
+- **WebSocket**: ws://localhost:3001
+- **Health Check**: http://localhost:3001/api/health
+
+## 📊 **API Endpoints**
+
+### **Market Data**
 ```bash
-npm start
-```
-The app will open in your browser at `http://localhost:3000`
-
-## 📊 Trading Conditions Explained
-
-### 1. **TDI (Traders Dynamic Index)**
-- Oscillator ranging from 0-100
-- Buy signals when TDI ≤ 32 with divergence
-- Sell signals when TDI ≥ 80 with divergence
-- Momentum tracking for trend confirmation
-
-### 2. **Volume Analysis**
-- Volume threshold monitoring
-- Trend confirmation through volume patterns
-- Increasing/decreasing volume detection
-
-### 3. **Trend Analysis**
-- Higher Highs/Higher Lows (HH/HL) pattern detection
-- Market structure analysis
-- Trend strength evaluation
-
-### 4. **EMA (Exponential Moving Average)**
-- Bullish/Bearish cross detection
-- Win rate tracking (60-80%)
-- Multiple timeframe analysis
-
-### 5. **Market Structure**
-- Break of Structure (BoS) detection
-- Change of Character (ChoCH) identification
-- Order blocks and fair value gaps
-- Liquidity sweep recognition
-
-### 6. **Session Analysis**
-- Asian/European/American session monitoring
-- Liquidity level tracking
-- Session-based volatility adjustment
-
-### 7. **Key Levels**
-- Support/resistance level proximity
-- Weekly/daily high/low monitoring
-- Distance measurement in pips
-
-## 🔧 Configuration
-
-### Customizing Trading Pairs
-Edit the currency pairs in the dropdown by modifying the `TradingDashboard.js` component:
-
-```javascript
-<select value={currentPair} onChange={(e) => setCurrentPair(e.target.value)}>
-  <option value="EURUSD">EUR/USD</option>
-  <option value="XAUUSD">XAU/USD</option>
-  <option value="GBPUSD">GBP/USD</option>
-  <option value="USDJPY">USD/JPY</option>
-  // Add more pairs here
-</select>
+GET /api/market-data/{symbol}/{timeframe}
+# Get OHLC data for specific symbol and timeframe
+# Examples: /api/market-data/EURUSD/15min
 ```
 
-### SMS Configuration
-Update the phone number in the `sendSMSAlert` function:
-
-```javascript
-const phoneNumber = '+1234567890'; // Replace with your number
+### **Multi-Timeframe Analysis**
+```bash
+GET /api/analysis/{symbol}
+# Get complete multi-timeframe analysis
+# Returns: 15min, 5min, 1min TDI + conditions + signals
 ```
 
-### Signal Sensitivity
-Adjust the signal generation threshold by changing the condition count:
-
-```javascript
-if (metConditions >= 5) { // Change from 5 to your preferred number
-  // Signal generation logic
-}
+### **SMS Alerts**
+```bash
+POST /api/send-sms
+# Send multi-timeframe trading signal via SMS
+# Body: { signal: {...} }
 ```
 
-## 📈 Technical Architecture
+## 🎯 **Trading Conditions Explained**
 
-### Frontend (React)
-- **Components**: Modular React components with hooks
-- **State Management**: React useState and useEffect hooks
-- **Styling**: Tailwind CSS with custom animations
-- **Charts**: Recharts library for responsive visualizations
-- **Icons**: Lucide React for modern iconography
+### **1. TDI (Traders Dynamic Index)**
+- **Calculation**: RSI-based momentum oscillator (0-100)
+- **Signals**: Buy ≤32, Sell ≥80, with divergence detection
+- **Timeframes**: Individual calculation for 15M, 5M, 1M
 
-### Backend (Node.js/Express)
-- **API Endpoints**: RESTful API for SMS functionality
-- **Error Handling**: Comprehensive error handling and logging
-- **CORS**: Cross-origin resource sharing enabled
-- **Health Checks**: Built-in health monitoring endpoints
+### **2. Volume Analysis**
+- **Pattern**: Increasing/decreasing volume trends
+- **Confirmation**: Volume > 1.2x average for trend validation
 
-### Real-Time Data
-- **Simulation**: Realistic price and indicator simulation
-- **Market Hours**: Session-based volatility adjustments
-- **Performance**: Optimized for smooth real-time updates
+### **3. EMA Analysis**
+- **Crossovers**: 12-period vs 26-period EMA
+- **Trend**: Price above/below EMA for direction
 
-## � Project Structure
+### **4. Market Structure**
+- **Patterns**: Higher Highs/Higher Lows detection
+- **Structure**: Break of Structure (BoS) identification
+
+### **5. Support/Resistance**
+- **Key Levels**: Proximity to significant price levels
+- **Distance**: Measured within 0.1% of key levels
+
+### **6. Market Sessions**
+- **Active Hours**: London (8-17 UTC), NY (13-22 UTC), Tokyo (0-9 UTC)
+- **Volatility**: Session-based volatility adjustments
+
+### **7. Risk Management**
+- **Stop Loss**: Automatic calculation based on signal type
+- **Take Profit**: Risk/Reward ratio optimization (1:2 to 1:4)
+
+## 📱 **SMS Alert Format**
 
 ```
-trading-dashboard/
-├── public/
-│   ├── index.html
-│   └── manifest.json
-├── src/
-│   ├── components/
-│   │   └── TradingDashboard.js
-│   ├── App.js
-│   ├── index.js
-│   └── index.css
-├── backend/
-│   ├── server.js
-│   └── package.json
-├── package.json
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
+🟢 MULTI-TIMEFRAME SIGNAL
+BUY EURUSD
+Entry: 1.08450
+15M TDI: 29.5
+5M TDI: 31.2
+1M TDI: 28.9
+SL: 1.08250
+TP: 1.08650
+Strength: 85%
+Time: 14:23:45
 ```
 
-## 🔮 Future Enhancements
+## 🔮 **Advanced Features Ready**
 
-- [ ] Real market data integration (Alpha Vantage, IEX Cloud)
-- [ ] Database integration for signal history
-- [ ] User authentication and personal dashboards
-- [ ] Mobile app development (React Native)
-- [ ] Advanced charting with TradingView integration
-- [ ] Machine learning-based signal improvement
-- [ ] Telegram/Discord bot integration
-- [ ] Backtesting capabilities
-- [ ] Portfolio tracking and management
-- [ ] Social trading features
+### **Real Market Data Integration**
+- Easy integration with Alpha Vantage, Finnhub, or IEX Cloud
+- Replace simulation with live market feeds
+- Professional-grade data quality
 
-## 🤝 Contributing
+### **Production Enhancements**
+- Database integration for signal history
+- User authentication and personal dashboards
+- Mobile app development (React Native ready)
+- Advanced backtesting capabilities
+- Machine learning signal optimization
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 📈 **Multi-Timeframe Dashboard Layout**
 
-## 📄 License
+```
+┌─────────────────────────────────────────────────────────┐
+│  📊 15-MINUTE TIMEFRAME                                 │
+│  ├── Candlestick Chart    │  ├── TDI Oscillator        │
+│  └── Primary Analysis     │  └── Signal Generation     │
+├─────────────────────────────────────────────────────────┤
+│  📊 5-MINUTE TIMEFRAME                                  │
+│  ├── Candlestick Chart    │  ├── TDI Oscillator        │
+│  └── Confirmation        │  └── Trend Validation      │
+├─────────────────────────────────────────────────────────┤
+│  📊 1-MINUTE TIMEFRAME                                  │
+│  ├── Candlestick Chart    │  ├── TDI Oscillator        │
+│  └── Entry Timing        │  └── Final Confirmation    │
+├─────────────────────────────────────────────────────────┤
+│  📋 MULTI-TIMEFRAME ANALYSIS SUMMARY                   │
+│  ├── 15M: ✓ CONFIRMED    │  ├── 5M: ✓ CONFIRMED      │
+│  └── 1M: ✓ CONFIRMED     │  └── 🚀 SIGNAL READY      │
+└─────────────────────────────────────────────────────────┘
+```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## ⚡ **Performance Features**
 
-## ⚠️ Disclaimer
+- **WebSocket Streaming**: Real-time data without polling
+- **Optimized Rendering**: Efficient chart updates
+- **Memory Management**: Limited data retention (100 candles per timeframe)
+- **Error Handling**: Automatic reconnection and error recovery
 
-This trading dashboard is for educational and informational purposes only. It should not be considered as financial advice. Trading involves substantial risk of loss and is not suitable for all investors. Always conduct your own research and consult with financial professionals before making trading decisions.
+## 🎓 **Trading Strategy Benefits**
 
-## 📞 Support
+### **Why Multi-Timeframe Analysis?**
+1. **Reduced False Signals**: Higher confirmation across timeframes
+2. **Better Entry Timing**: Precise 1-minute entries
+3. **Improved Risk/Reward**: Better SL/TP placement
+4. **Trend Alignment**: Trade with overall market direction
 
-If you have any questions or need help with the setup, please open an issue on GitHub or contact the development team.
+### **Professional Trading Approach**
+- **Top-Down Analysis**: Start broad, narrow to specific
+- **Confluence Trading**: Multiple confirmations required
+- **Risk Management**: Systematic SL/TP calculation
+- **Objective Signals**: Removes emotional trading decisions
+
+## 🛡️ **Risk Management**
+
+- **Position Sizing**: Automatic calculation recommendations
+- **Stop Loss**: Dynamic SL based on market structure
+- **Take Profit**: Optimized R:R ratios
+- **Signal Filtering**: Only high-probability setups
+
+## � **Support & Contact**
+
+For technical support or trading strategy questions:
+- **SMS Alerts**: `+1(662)924-9008`
+- **GitHub Issues**: For technical problems
+- **Documentation**: Comprehensive setup guides included
+
+## ⚠️ **Important Disclaimers**
+
+- **Educational Purpose**: This system is for educational and demonstration purposes
+- **Not Financial Advice**: Consult professional traders and financial advisors
+- **Risk Warning**: Trading involves substantial risk of loss
+- **Demo Data**: Currently uses simulated market data (easily replaceable with real feeds)
 
 ---
 
-**Built with ❤️ for the trading community**
+## 🎉 **Ready to Trade?**
+
+**🚀 Launch Command**: `./start.sh`
+
+**� Watch your phone for SMS alerts when all timeframes align!**
+
+**📈 Professional multi-timeframe analysis at your fingertips!**
