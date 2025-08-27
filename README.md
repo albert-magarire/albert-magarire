@@ -56,10 +56,7 @@ A modern cross-platform application designed to enhance campus experience throug
 ---
 
 ## 📊 GitHub Stats
-
-![Betserai's GitHub Stats](https://github-readme-stats.vercel.app/api?username=albert-magarire&show_icons=true&theme=radical&hide_title=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=albert-magarire&layout=compact&theme=radical&hide_title=false)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=albert-magarire&layout=compact&theme=radical&hide_title=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=albert-magarire&theme=radical)
 
