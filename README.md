@@ -56,18 +56,9 @@ A modern cross-platform application designed to enhance campus experience throug
 ---
 
 ## 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=albert-magarire&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=albert-magarire&theme=highcontrast&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=albert-magarire&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=albert-magarire&layout=compact&theme=radical&hide_title=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=albert-magarire&theme=radical)
-
-- **Total Stars:** 12 ⭐
-- **Total Commits:** 420+ 🎯
-- **Total PRs:** 110+ 🔄
-- **Contributed To:** 35+ Repositories 🤝
-- **Current Streak:** 6 days 🔥
+![](https://github-readme-stats.vercel.app/api?username=albert-magarire&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=albert-magarire&theme=radical&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=albert-magarire&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
 
