@@ -51,7 +51,6 @@ A modern cross-platform application designed to enhance campus experience throug
 ---
 
 ## 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=albert-magarire&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<span>    </span>
 ![](https://nirzak-streak-stats.vercel.app/?user=albert-magarire&theme=radical&hide_border=false)<span>    </span>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=albert-magarire&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
