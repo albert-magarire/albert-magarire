@@ -1,6 +1,6 @@
 # Hi, I'm Betserai Albert Magarire
 
-🎓 Computer Science Student | Software & Data Engineer | AI Enthusiast | Cybersecurity Explorer | Project Management
+🎓 Computer Science Student | Software & Data Engineer | AI Enthusiast | Cybersecurity | Project Management
 
 ---
 
