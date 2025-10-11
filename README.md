@@ -1,7 +1,5 @@
 # Hi, I'm Betserai Albert Magarire
-
-🎓 Computer Science Student | Software & Data Engineer | AI Enthusiast | Cybersecurity | Project Management
-
+Computer Science Student | Software & Data Engineer | AI Enthusiast | Cybersecurity | Project Management
 ---
 
 ## Featured Project
@@ -50,7 +48,7 @@ A modern cross-platform application designed to enhance campus experience throug
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 ![](https://nirzak-streak-stats.vercel.app/?user=albert-magarire&theme=radical&hide_border=false)<span>    </span>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=albert-magarire&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
@@ -78,7 +76,7 @@ SolarWinds IOC investigation using Splunk and MISP for cybersecurity analysis.
 
 ---
 
-## 🎮 Fun Projects
+## Fun Projects
 
 ### [Falling Blocks Game](https://github.com/albert-magarire/Falling-Blocks-Game)
 JavaFX game with colored blocks and scoring system.
@@ -99,12 +97,12 @@ JavaFX application for browsing and adopting pets with CSV data management.
 
 ## Get In Touch
 
-- 📧 **Email:** [albertmagarire@gmail.com](mailto:albertmagarire@gmail.com)
-- 🌐 **Website:** [albertmagarire.github.io](https://albertmagarire.github.io)
-- 💼 **LinkedIn:** [betserai-albert-magarire](https://www.linkedin.com/in/betserai-albert-magarire)
-- 💻 **GitHub:** [@albert-magarire](https://github.com/albert-magarire)
-- 🐦 **Twitter:** [@AlbertMagarire](https://twitter.com/AlbertMagarire)
+- **Email:** [albertmagarire@gmail.com](mailto:albertmagarire@gmail.com)
+- **Website:** [albertmagarire.github.io](https://albertmagarire.github.io)
+- **LinkedIn:** [betserai-albert-magarire](https://www.linkedin.com/in/betserai-albert-magarire)
+- **GitHub:** [@albert-magarire](https://github.com/albert-magarire)
+- **Twitter:** [@AlbertMagarire](https://twitter.com/AlbertMagarire)
 
 ---
 
-⭐️ *Thanks for visiting my profile! Feel free to explore my repositories and connect with me!*
+ *Thanks for visiting my profile! Feel free to explore my repositories and connect with me!*
