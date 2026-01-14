@@ -1,20 +1,5 @@
 # Hi, I'm Betserai Albert Magarire
 Computer Science Student | Software & Data Engineer | AI Enthusiast | Cybersecurity | Project Management
----
-
-## Featured Project
-
-### Lander AI Assistant
-**Flutter-based AI assistant for Lander University students and faculty**
-
-A modern cross-platform application designed to enhance campus experience through AI-powered assistance. Features include:
-
--  Intelligent campus navigation
-- Course management tools
-- Event scheduling and reminders
-- Natural language processing capabilities
-- Beautiful Material Design interface
-- -amongst many other features
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
@@ -52,47 +37,6 @@ A modern cross-platform application designed to enhance campus experience throug
 ## GitHub Stats
 ![](https://nirzak-streak-stats.vercel.app/?user=albert-magarire&theme=radical&hide_border=false)<span>    </span>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=albert-magarire&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
----
-
-## Projects
-
-### [Lander AI Assistant](https://github.com/albert-magarire/Lander-AI-Assistant)
-Flutter-based AI assistant for campus community with intelligent features and modern UI.
-
-### [Virtual Thrift Store](https://github.com/albert-magarire/Lander-Thrift-Store)
-Web platform for virtual thrift shopping with user management and admin features.
-
-### [Hotel Room Reservation System](https://github.com/albert-magarire/Hotel-Reservation-System)
-Java-based reservation system with room management and booking capabilities.
-
-### [Geolocator App](https://github.com/albert-magarire/Geolocator-App)
-React Native application for finding local retailers using Google Maps API.
-
-### [Generative AI in Healthcare](https://github.com/albert-magarire/AI-Healthcare-Research)
-Research project using NLP and 2-D CNN models to process healthcare data.
-
-### [Cybersecurity Threat-Hunting](https://github.com/albert-magarire/CYB102-Threat-Hunting)
-SolarWinds IOC investigation using Splunk and MISP for cybersecurity analysis.
-
----
-
-## Fun Projects
-
-### [Falling Blocks Game](https://github.com/albert-magarire/Falling-Blocks-Game)
-JavaFX game with colored blocks and scoring system.
-
-### [Pet Adoption App](https://github.com/albert-magarire/Pet-Adoption-App)
-JavaFX application for browsing and adopting pets with CSV data management.
-
----
-
-## Achievements
-
-- **Top Contributor** in multiple college projects including AI healthcare research
-- **Perfect GPA** in Software Development and Cybersecurity courses
-- **Hackathon Participant** in regional coding competitions
-- **Open Source Contributor** to various Flutter packages
 
 ---
 
